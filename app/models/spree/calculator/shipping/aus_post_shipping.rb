@@ -82,8 +82,6 @@ module Spree
         shipment_cost
       end
 
-      private
-
       # extract maximum price from price range in shipment service price
       def max_price( price_text )
         # if its a price range, extract the highest price
